@@ -1,0 +1,6 @@
+add_library(core-end_point_collector EndpointCollector.cpp)
+add_library(core-object_directory ObjectDirectory.cpp)
+add_library(core-session_enumerator SessionEnumerator.cpp)
+add_library(core-if_version_predicate IfVersionPredicate.cpp)
+add_library(core-rpc_binding RpcBinding.cpp)
+add_library(core-rpc_prober RpcProber.cpp)

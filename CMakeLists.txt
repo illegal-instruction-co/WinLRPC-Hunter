@@ -4,5 +4,5 @@ project(WinLRPC-Hunter LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(WinLRPC-Hunter src/main.cpp)
-
+include_directories(include)
+add_subdirectory(src)
